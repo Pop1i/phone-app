@@ -23,7 +23,7 @@ class MyApp(App):
             self.notify("YEAH!!!")
 
     def my_function(self) -> None:
-        self.notify("Button clicked!")
+        self.notify("Button clickeaaad!")
         print("Function called")
 
 
