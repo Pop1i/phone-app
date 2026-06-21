@@ -6,13 +6,13 @@ class MyApp(App):
     def compose(self) -> ComposeResult:
         yield Static("Press the button")
         button =  Button("Click Me", id="click_btn")
-        button.styles.height = 20
-        button.styles.width = 50
+        button.styles.height = 10
+        button.styles.width = 10
         yield button
 
         button2 =  Button("Click Me", id="click_btn2")
-        button2.styles.height = 20
-        button2.styles.width = 50
+        button2.styles.height = 10
+        button2.styles.width = 10
         yield button2
 
 
